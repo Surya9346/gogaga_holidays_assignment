@@ -1,0 +1,41 @@
+body{
+    margin: 0px;
+}
+
+.main-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #90e7c9;
+    padding: 15px;
+    height: 100vh;
+    width: 100vw;
+}
+
+.card-container{
+    background-color: white;
+    border-radius: 10px;
+    border-width: 0px;
+    padding: 25px;
+    height: 40vh;
+    width: 40vw;
+    margin-bottom: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo{
+    font-weight: 900;
+    font-size: 60px;
+    margin-bottom: 10px;
+}
+
+.description{
+    font-family: "Roboto";
+    font-size: 20px;
+    font-weight: bolder;
+    color: #30cfe3;
+}

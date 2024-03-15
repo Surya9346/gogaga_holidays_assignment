@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="hotel.css">
+  </head>
+  <body>
+    <div class="main-container" id="sectionHotelBooking">
+        <div class="hotel-booking-container">
+          <h2>Hotel Booking</h2>
+          <form class="form" action="hotel_list.html#sectionHotelDetails">
+            <label for="location" class="label">Location:</label>
+            <select id="location" name="location" class="select" required> 
+                <option value="">--Select Location--</option>
+                <option value="Goa">Goa</option>   
+                <option value="Bengaluru">Bengaluru</option> 
+                <option value="Tamilnadu">Tamilnadu</option> 
+                <option value="Hyderabad">Hyderabad</option>
+            </select>
+            <label for="date">Date:</label>
+            <input type="date" id="date" name="date" class="input" required>
+            <a href="hotel_list.html#sectionHotelDetails"><button class="submit">Search</button></a> 
+          </form> 
+        </div> 
+    </div>
+  </body>
+</html>

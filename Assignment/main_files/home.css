@@ -1,0 +1,225 @@
+body {
+    margin: 0px;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 15px;
+    background-color: #0d2436;
+}
+
+.website-heading {
+    font-family: "Roboto";
+    font-size: 20px;
+    font-weight: bolder;
+    color: white;
+}
+
+.items {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+
+.item {
+    margin: 10px;
+    font-family: "Roboto";
+    font-size: 15px;
+    font-weight: lighter;
+    color: white;
+}
+
+.body-container {
+    background-color: #90e7c9;
+    padding: 15px;
+}
+
+.footer-container {
+    padding: 15px;
+    background-color: #0d2436;
+}
+
+.footer {
+    font-family: "Roboto";
+    font-size: 20px;
+    font-weight: bolder;
+    color: white;
+}
+
+.about-card {
+    background-color: white;
+    border-radius: 10px;
+    border-width: 0px;
+    padding: 25px;
+    margin-bottom: 25px;
+}
+
+.flight-container {
+    background-color: white;
+    border-radius: 10px;
+    border-width: 0px;
+    padding: 25px;
+    margin-bottom: 25px;
+}
+
+.hotel-container {
+    background-color: white;
+    border-radius: 10px;
+    border-width: 0px;
+    padding: 25px;
+    margin-bottom: 25px;
+}
+
+.about-heading {
+    font-family: "Roboto";
+    font-size: 20px;
+    font-weight: bolder;
+    color: #30cfe3;
+}
+
+.description-content {
+    font-family: "Roboto";
+    font-size: 20px;
+    font-weight: lighter;
+    color: black;
+}
+
+.holiday-packages-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    background-color: white;
+    border-radius: 10px;
+    border-width: 0px;
+    padding: 5px;
+}
+
+@media (max-width: 768px){
+    .holiday-packages-container{
+        display: flex;
+        flex-direction: column; 
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+.sub-heading {
+    font-family: "Roboto";
+    font-size: 22px;
+    font-weight: bolder;
+    color: black;
+}
+
+.goa-package {
+    background-image: url('https://www.holidify.com/images/bgImages/GOA.jpg');
+    height: 250px;
+    width: 250px;
+    background-size: cover;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    text-align: center;
+    margin: 5px;
+    padding: 5px;
+    color: white;
+    font-family: "Roboto";
+}
+
+.bengaluru-package {
+    background-image: url('https://cbvalueaddrealty.in/wp-content/uploads/2023/07/Bangalore-City-Guide.jpg');
+    height: 250px;
+    width: 250px;
+    background-size: cover;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    text-align: center;
+    margin: 5px;
+    padding: 5px;
+    color: white;
+    font-family: "Roboto";
+}
+
+.tamilnadu-package {
+    background-image: url('https://i.pinimg.com/736x/5a/8e/fe/5a8efec8cb6d86aa74a53f707eaa7220.jpg');
+    height: 250px;
+    width: 250px;
+    background-size: cover;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    text-align: center;
+    margin: 5px;
+    padding: 5px;
+    color: white;
+    font-family: "Roboto";
+}
+
+.more-packages {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    font-family: "Roboto";
+    margin: 5px;
+    padding: 5px;
+    background-color: #489bca;
+    border-radius: 10px;
+    height: 250px;
+    width: 250px;
+}
+
+@media (max-width: 768px){
+    .goa-package {
+        width: 80vw;
+    }
+    .bengaluru-package {
+        width: 80vw;
+    }
+    .tamilnadu-package {
+        width: 80vw;
+    }
+    .more-packages {
+        width: 80vw;
+    }
+}
+
+.package-name {
+    font-size: 30px;
+    font-weight: bolder;
+    color: white;
+}
+
+.view-more {
+    font-size: 20px;
+    font-weight: lighter;
+    color: white;
+}
+
+.book-now-button {
+    height: 30px;
+    width: 120px;
+    padding: 5px;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    background-color: #007bff;
+    border-radius: 4px;
+    border-width: 0px;
+}

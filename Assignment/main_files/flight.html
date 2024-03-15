@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="flight.css">
+  </head>
+  <body>
+    <div class="main-container" id="sectionFlightBooking">
+        <div class="flight-booking-container">
+          <h2>Flight Booking</h2>
+          <form class="form" action="flight_list.html#sectionFlightDetails">
+            <label for="origin" class="label">Origin:</label>
+            <select id="origin" name="origin" class="select" required> 
+                <option value="">--Select Origin--</option> 
+                <option value="A">A</option> 
+                <option value="B">B</option> 
+                <option value="C">C</option> 
+                <option value="D">D</option> 
+            </select>
+            <label for="destination" class="label">Destination:</label> 
+            <select id="destination" name="destination" class="select" required> 
+                <option value="">--Select Destination--</option> 
+                <option value="A">A</option> 
+                <option value="B">B</option> 
+                <option value="C">C</option> 
+                <option value="D">D</option> 
+            </select>
+            <label for="depart">Depart On:</label>
+            <input type="date" id="depart" name="depart" class="input" required>
+            <a href="flight_list.html#sectionFlightDetails"><button class="submit">Search</button></a>
+          </form> 
+        </div> 
+    </div>
+  </body>
+</html>

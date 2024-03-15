@@ -1,0 +1,126 @@
+body {
+    margin: 0px;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    background-color: aquamarine;
+    padding: 15px;
+    width: 100vw;
+}
+
+.packages-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.goa-package {
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 90vw;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    border-width: 0px;
+}
+
+.bengaluru-package {
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 90vw;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    border-width: 0px;
+}
+
+.tamilnadu-package {
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 90vw;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    border-width: 0px;
+}
+
+.img{
+    width: 30vw;
+    height: 240px;
+    border-radius: 10px;
+    border-width: 0px;
+}
+
+.heading {
+    font-family: "Roboto";
+    font-size: 22px;
+    font-weight: bolder;
+    color: black;
+    margin-left: 10px;
+}
+
+.details{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 35vw;
+    height: 200px;
+    box-sizing: border-box;
+}
+
+.location {
+    font-family: "Roboto";
+    font-size: 20px;
+    font-weight: bolder;
+    color: black;
+}
+
+.description {
+    font-family: "Roboto";
+    font-size: 15px;
+    font-weight: lighter;
+    color: black;
+}
+
+.view-more {
+    font-size: 20px;
+    font-weight: lighter;
+    color: black;
+}
+
+
+.price {
+    font-family: "Roboto";
+    font-size: 18px;
+    font-weight: bolder;
+    color: black;
+}
+
+.book-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    width: 15vw;
+    box-sizing: border-box;
+}
+
+.book{
+    height: 30px;
+    width: 120px;
+    padding: 5px;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    background-color: #007bff;
+    border-radius: 4px;
+    border-width: 0px;
+}
